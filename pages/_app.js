@@ -19,8 +19,8 @@ storyblokInit({
   use: [apiPlugin],
   components,
   apiOptions: {
-    region: "us" // region code here
-  }
+    region: 'us', // region code here
+  },
 });
 
 function MyApp({ Component, pageProps }) {

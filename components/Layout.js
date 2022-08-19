@@ -1,7 +1,12 @@
+import Navigation from "./Navigation";
+import Footer from "./Footer";
+ 
 const Layout = ({ children }) => (
   <div>
-    <div className="max-w-5xl p-10 mx-auto">{children}</div>
+    <Navigation/>
+      {children}
+    <Footer />
   </div>
 );
-
+ 
 export default Layout;
